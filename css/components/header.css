@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 36px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--lavender);
+    font-size: 14px;
+    gap: 24px;
+    align-items: center;
+}
+
+.header_btn {
+    color: var(--lavender);
+    border-radius: 19px;
+    border: #E9DEFF solid 1px;
+    padding: 10px 14px;
+}
+
+.header_list {
+    display: flex;
+    gap: 24px;
+}
+
+.header_list_item{
+    color: var(--lavender);
+}

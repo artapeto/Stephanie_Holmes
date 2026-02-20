@@ -1,0 +1,57 @@
+
+.works-list{
+    display: flex;
+        margin-top: 40px;
+    justify-content: space-between;
+        font-family: var(--monsterrat);
+        gap: 24px;
+
+}
+
+.works-list_card{
+    background: linear-gradient(95deg, #8338ec 0%, #9c2ef5 100%);
+    max-width: 688px;
+    color: var(--pure);
+    padding: 36px;
+    border-radius: 20px;
+
+    
+    h3{
+        font-size: 32px;
+        font-weight: 400;
+        letter-spacing: -1%;
+        font-family: var(--monsterrat);
+        margin-bottom: 97px;
+
+    }
+
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 160%;
+        font-family: var(--monsterrat);
+        margin-bottom: 16px;
+    }
+    a{
+        gap: 8px;
+        border-radius: 19px;
+        border: solid 1px var(--pure);
+        padding:  6px 12px;
+        font-family: var(--montserrat);
+        font-size: 14px;
+        line-height: 160%;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    div{
+        margin-top: 20px;
+        max-width: max-content;
+    }
+}
+.card--second{
+    background: linear-gradient(95deg, #9e2df6 0%, #b923ff 100%);
+}
+.card_buttons{
+    display: flex;
+    gap: 8px;
+}

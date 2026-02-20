@@ -1,0 +1,35 @@
+@media (max-width: 1100px) {
+    .img{
+        width: 550px;
+    }
+    .overlay_img{
+        left: - 13.5%;
+    }
+}
+
+@media (max-width: 750px){
+   .img{ display: none;
+        width: 610px;height: 200px;
+    }
+        .overlay_img{
+        display: none;
+    }
+    .trailhive {
+        flex-wrap: wrap;
+        p{margin-top: 20px;}
+    }
+
+    .korba {
+    div{margin: 0px;}
+        p{
+        margin-top: 20px;
+    }
+    div{ max-width: 750px;}
+    }
+
+.works-list_card {
+        a{display: none;}
+}
+.awards_list-item{
+    p{font-size: 20px;}
+}
