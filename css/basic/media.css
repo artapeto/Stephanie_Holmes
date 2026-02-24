@@ -31,5 +31,12 @@
         a{display: none;}
 }
 .awards_list-item{
+    gap: 0px;
+    justify-content: center;
     p{font-size: 20px;}
+        svg{
+        display: none;
+    }
+    text-align: center;
+}
 }

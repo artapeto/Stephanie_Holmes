@@ -5,15 +5,17 @@
     justify-content: space-between;
     max-width: 715px;
     cursor: pointer;
-    p{
+    width: 100%;
+    gap: 200px;
+    h4{
         font-family: var(--monsterrat);
         font-weight: 500;
         font-size: 22px;
         line-height: 35.2px;
         color: var(--deep);
-        max-width: 600px;
+
     }
-    div{
+    span{
         font-family: var(--monsterrat);
         font-weight: 400;
         font-size: 14px;
@@ -48,17 +50,8 @@
     li{
         border-top: 1px solid var(--midnight);
     }
-    section{
-        margin-right: 393px;
-    }
-    p{
-        width: 500px
-    }
-    svg{
-        margin-left:-200px; 
-    }
 }
-.awards_list-item-last{
+.awards_list-item--last{
     border-bottom: 1px solid var(--midnight);
     border-top: 1px solid var(--midnight);
 }
