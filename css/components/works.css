@@ -52,6 +52,7 @@
     background: linear-gradient(95deg, #9e2df6 0%, #b923ff 100%);
 }
 .card_buttons{
+    white-space: nowrap;
     display: flex;
     gap: 8px;
 }
