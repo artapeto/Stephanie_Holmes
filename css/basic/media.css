@@ -84,6 +84,7 @@ h3{
     white-space: nowrap;
 }
 .header_btn{
+    padding: 10px 14px;
     img{display: none;}
 }
 @media (max-width: 400px){.header{
@@ -94,6 +95,6 @@ h3{
 }}
 .header_btn{
     img{display: none;}
-    padding: 10px 54px;
+    
 }
 }
