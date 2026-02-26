@@ -80,15 +80,20 @@ h3{
 }
 
 .header{
+    justify-content: space-between;
+    white-space: nowrap;
+}
+.header_btn{
+    img{display: none;}
+}
+@media (max-width: 400px){.header{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     gap: 8px;
-    a{
-        max-width: 200px;
-    }
-}
+}}
 .header_btn{
     img{display: none;}
+    padding: 10px 54px;
 }
 }
